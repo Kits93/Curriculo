@@ -1,0 +1,33 @@
+/* *{
+    outline: 1px dashed lightblue;
+} */
+
+:root {
+    --primary-color:#150F40;
+    --secondary-color:#262A73;
+    --tertiary-color:#3345A6;
+    --quaternary-color:#F29966;
+    --quinary-color:#F25A38;
+    --light-color:white;
+    --dark-color:black;
+    --grayscale:#555555;
+
+    --extra-small-size:4px;
+    --small-size:8px;
+    --medium-size:16px;
+    --large-size:32px;
+    --extra-large-size:64px;
+}
+
+.header{
+    background: var(--primary-color);
+    background: linear-gradient(90deg, var(--primary-color) 13%, var(--secondary-color) 55%, var(--tertiary-color) 100%);
+}
+
+.header__name{
+    color: var(--light-color);
+}
+
+.header__social-icons{
+    color: var(--light-color);
+}
