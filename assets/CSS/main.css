@@ -10,7 +10,7 @@
     --quinary-color:#F25A38;
     --light-color:white;
     --dark-color:black;
-    --grayscale:#555555;
+    --grayscale:#cecece;
 
     --extra-small-size:4px;
     --small-size:8px;
@@ -30,4 +30,47 @@
 
 .header__social-icons{
     color: var(--light-color);
+}
+
+.skills {
+    
+}
+
+.skills__left-column{
+    background: var(--grayscale);
+}
+
+.skills__title{
+    color: var(--tertiary-color);
+    font-weight: bold;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
+.skills__label{
+    font-size: 0.8rem;
+    transition: all 0.5s;
+}
+
+.skills__label:hover{
+    background: var(--tertiary-color);
+    border-radius: 4px;
+    transition: all 0.5s;
+    color: var(--light-color);
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.skills__divider{
+    width: 80%;
+    height: 2px;
+    background: var(--secondary-color);
+    padding: 0;
+    margin: 0;
+    margin-bottom: var(--medium-size);
+    opacity: 0.5;
+}
+
+.skills__right-column{
+    
 }
